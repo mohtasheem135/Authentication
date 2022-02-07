@@ -1,0 +1,184 @@
+.card-container{
+    /* margin: 12% 12%; */
+    border: 2px solid black;
+}
+
+.name-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-head h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-box{
+    padding: 1% 30%;
+    
+}
+
+/* Name */
+
+.name-box{
+    border: 2px solid green;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 12px;
+    cursor: default;
+    border-bottom: 2px solid rgb(255, 152, 67);
+}
+
+.line{
+    margin-left: 20px;
+}
+
+.name-box-names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 26px;
+}
+
+.name-box-last{
+    margin-left: 7px;
+}
+
+.line-name{
+    margin-left: 27px;
+}
+
+/* Email */
+
+.email-box{
+    /* border: 2px solid blue; */
+    display: flex;
+    border-bottom: 2px solid rgb(255, 152, 67);
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    padding: 0px 12px;
+    cursor: default;
+}
+
+.email-box-email{
+    margin-left: 28px;
+}
+
+.line-email{
+    margin-left: 31px;
+}
+
+/* Details Box */
+
+.details-box{
+    /* border: 2px solid orange; */
+    cursor: default;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 12px;
+    border-bottom: 2px solid rgb(255, 152, 67);
+}
+
+.details-box-mobile{
+    margin-left: 28px;
+}
+
+.line-mobile{
+margin-left: 22px;
+}
+
+.line-age{
+    margin-left: 21px;
+}
+
+.details-box-age{
+    margin-left: 20px;
+}
+
+.box-title-age{
+    margin-left: 40px;
+}
+
+/* Address */
+
+.address-box{
+    border-bottom: 2px solid rgb(255, 152, 67);
+    cursor: default;
+    /* border: 2px solid purple; */
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.line-state{
+    margin-left: 35px;
+}
+
+.address-box-state{
+    margin-left: 28px;
+}
+
+.line-city{
+    margin-left: 24px;
+}
+
+.address-box-city{
+    margin-left: 20px;
+}
+
+.box-title-city{
+    margin-left: 45px;
+}
+
+@media only screen and (max-width: 600px){
+    .card-box{
+        padding: 1% 9%;
+    }
+    .card-container{
+        margin: 15% 0%;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .card-box{
+        padding: 1% 5%;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .card-box{
+        padding: 2% 1%;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    .name-box{
+        font-size: 14px;
+    }
+    .email-box{
+        font-size: 14px;
+    }
+    .details-box{
+        font-size: 14px;
+    }
+    .address-box{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .name-box{
+        font-size: 13px;
+    }
+    .email-box{
+        font-size: 13px;
+    }
+    .details-box{
+        font-size: 13px;
+    }
+    .address-box{
+        font-size: 13px;
+    }
+}
