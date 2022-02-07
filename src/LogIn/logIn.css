@@ -145,6 +145,13 @@
 }
 
 @media only screen and (max-width: 550px){
+    .signin-box{
+        width: 63%;
+    }
+    .img2 {
+        margin: -25% -20%;
+        width: 113%;
+    }
     .name-txt-box{
         font-size: 15px;
     }
@@ -158,14 +165,17 @@
     .logIn-btn{
         margin-left: 55px;
         padding: 6px 85px;
-        margin-left: 55px;
+        margin-left: 75px;
     }
 }
 
 @media only screen and (max-width: 500px){
+    .signin-box{
+        width: 70%;
+    }
     .logIn-btn{
         padding: 6px 75px;
-        margin-left: 50px;
+        margin-left: 70px;
     }
     .signup-txt {
         margin: -27% 25%;
@@ -173,9 +183,12 @@
 }
 
 @media only screen and (max-width: 460px){
+    .signin-box {
+        width: 80%;
+    }
     .logIn-btn{
         padding: 6px 65px;
-        margin-left: 45px;
+        margin-left: 90px;
     }
     .signup-txt {
         margin: -30% 22%;
@@ -183,13 +196,40 @@
 }
 
 @media only screen and (max-width: 400px){
+    .signin-box {
+        width: 85%;
+    }
     .logIn-btn{
         padding: 6px 55px;
-        margin-left: 40px;
+        margin-left: 91px;
     }
     .signup-txt {
         margin: -34% 20%;
         font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    
+    .logIn-btn{
+        padding: 6px 55px;
+        margin-left: 70px;
+    }
+    .signup-txt {
+        margin: -37% 17%;
+    }
+}
+
+@media only screen and (max-width: 310px){
+    .signin-box {
+        width: 91%;
+    }
+    .logIn-btn{
+        padding: 6px 55px;
+        margin-left: 55px;
+    }
+    .signup-txt {
+        margin: -43% 10%;
     }
 }
 

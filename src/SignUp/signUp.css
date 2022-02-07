@@ -134,6 +134,12 @@
 }
 
 @media only screen and (max-width: 504px){
+  .img1 {
+    
+    margin: -23% -12%;
+    width: 49%;
+
+  }
   .signUp-btn{
     margin-left: 45px;
     padding: 6px 80px;
@@ -162,5 +168,12 @@
   .login-box{
     /* border: 2px solid rgb(0, 0, 0); */
     width: 80%;
+}
+}
+
+@media only screen and (max-width: 360px){
+.img1 {
+  margin: -27% -8%;
+  width: 60%;
 }
 }

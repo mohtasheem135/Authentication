@@ -1,6 +1,6 @@
 .card-container{
     /* margin: 12% 12%; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .name-head{
@@ -21,7 +21,7 @@
 /* Name */
 
 .name-box{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     font-family: 'Montserrat', sans-serif;
     padding: 0px 12px;
@@ -180,5 +180,11 @@ margin-left: 22px;
     }
     .address-box{
         font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    .address-box{
+        display: none;
     }
 }
